@@ -1,0 +1,30 @@
+/*
+
+natural(N)
+	Es cierto si N es un número natural.
+
+
+Principio de inducción matemática
+	Queremos demostrar que una propiedad P es cierta para todos los elementos
+	del conjunto S. Para que esto funcione, es necesario que se cumpla cierta Precondición.
+	
+		- Los elementos de S tienen que ser ordenables. Dando un elemento que tiene que ser el primero (n0)
+	
+	Con esto obtenemos lo siguiente:
+	
+	a) Al aplicar la propiadad al primer elemento, siempre es verdadero [P(n0)= true]
+	b) Si el anterior elemento, al aplicarle la propiedad da verdadero, el elemento en cuestión tambien es verdadero
+				[SI(P(n-1) = true) then P(n) = true]
+	
+
+ En Prolog le damos la vuelta a las reglas
+
+	Para decir que si se hace A entonces sucede B
+		B:-A
+
+Para poder utilizar el N-1, tenemos que asignarlo a una variable
+  N2 is N-1, natural(N2)
+*/
+
+natural(1).
+natural(N):- N2 is N-1, natural(N).
