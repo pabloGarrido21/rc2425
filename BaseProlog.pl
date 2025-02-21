@@ -24,6 +24,12 @@ Principio de inducción matemática
 
 Para poder utilizar el N-1, tenemos que asignarlo a una variable
   N2 is N-1, natural(N2)
+
+
+Para ejecutar en SWI-Prolog
+	- El archivo tiene que tener extensión .pl
+ 	- al abrir SWI le damos File -> Consult... -> archio a ejecutar
+  	- Si todo está bien, se escribe el nombre del método con el valor que queremos.
 */
 
 natural(1).
