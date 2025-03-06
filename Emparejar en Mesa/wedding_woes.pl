@@ -3,16 +3,17 @@
 Programa para emparejar personas en una mesa
 
 chatty(A) 
-	--> Determina que personas son habladoras
+	--> Es Cierto si, la persona(A) es habladora
 
 likes(A,B)
-	--> Determina las preferencias de emparejamiento
+	--> Es Cierto si, las personas(A,B) les gusta estar juntas
 	
 pairing(A,B)
-	--> empareja individual
+	--> Es Cierto si, las personas(A,B) se pueden emparejar
 	
 seating(A,B,C,D,E)
-	--> empareja todos
+	--> Es Cierto si, hay una combinación en la que todas las personas (A-E)
+ 	Están sentadas junto a alguien que le guste
 	
 Este ejercicio necesita de listas para poder realizarse adecuadamente
 Ya que no se puede dejar sitios vacíos.
