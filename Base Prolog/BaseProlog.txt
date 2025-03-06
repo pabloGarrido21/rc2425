@@ -24,3 +24,6 @@ Para ejecutar en SWI-Prolog
 	- El archivo tiene que tener extensión .pl
  	- al abrir SWI le damos File -> Consult... -> archio a ejecutar
   	- Si todo está bien, se escribe el nombre del método con el valor que queremos.
+	- Siempre hay que poner el . al final de la sentencia
+
+Si el método devuelve múltiples resultados, hay que poner un ; para visualizar el siguiente.
